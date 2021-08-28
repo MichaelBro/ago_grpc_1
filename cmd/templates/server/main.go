@@ -15,7 +15,7 @@ import (
 const (
 	defaultHost = "0.0.0.0"
 	defaultPort = "9999"
-	defaultDsn  = "postgres://localhost:5432/db"
+	defaultDsn  = "postgres://app:pass@localhost:5432/db"
 )
 
 func main() {
